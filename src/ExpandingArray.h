@@ -47,7 +47,6 @@ protected:
 	 * Length of the underlying array; hidden from calling code
 	 */
 	IndexType _arrayLength = 0;
-
 	
 	inline bool _indexInRange(const IndexType i) const noexcept {
 		return this->_data != nullptr &&
