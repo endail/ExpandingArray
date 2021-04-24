@@ -222,17 +222,9 @@ public:
 
 	/**
 	 * Returns the index of an element from its pointer
-	 * 
-	 * -1 if this array is uninitialised or pointer is null
 	 */
 	IndexType idx(const StorageType* const ptr) const noexcept {
-		
-		if(this->_data == nullptr || ptr == nullptr) {
-			return -1;
-		}
-
 		return ptr - this->_data;
-
 	}
 
 	/**
