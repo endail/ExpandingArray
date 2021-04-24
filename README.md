@@ -1,6 +1,6 @@
 # ExpandingArray
 
-A lightweight dynamically allocating and deallocating template array. I use this with the Arduino platform.
+A lightweight template array. I use this with the Arduino platform.
 
 ```c++
 //ExpandingArray can take two template parameters
