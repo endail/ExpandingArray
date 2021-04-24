@@ -2,6 +2,8 @@
 
 A lightweight template array. I use this with the Arduino platform.
 
+[![lint status](https://github.com/endail/ExpandingArray/workflows/arduino-lint/badge.svg?event=push)](https://github.com/endail/ExpandingArray/actions?query=workflow%3Aarduino-lint)
+
 ```c++
 //ExpandingArray can take two template parameters
 //StorageType: the data type being stored in the array (default is uint8_t)
